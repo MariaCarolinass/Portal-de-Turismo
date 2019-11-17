@@ -40,7 +40,7 @@ nav#titulo {
 nav#titulo h3{
 	position: relative; 
 	top: 0;
-	left: 950px;
+	left: 920px;
 	color: white;
 }
 
@@ -52,28 +52,28 @@ nav#menu ul{
 	list-style: none;
 	text-transform: uppercase;
 	position: absolute;
-	top: 5px;
-	left: 400px;
+	top: -10px;
+	left: 880px;
 }
 
 nav#menu li {
 	display: inline-block;
-	background-color: #dddddd;
 	padding: 10px;
+	margin: 5px;
 	transition: background-color 1s;
 }
 
 nav#menu li:hover {
-	background-color: #606060;
+	background-color: #ffffff;
 }
 
 nav#menu a {
-	color: #000000;
+	color: #ffffff;
 	text-decoration: none;
 }
 
 nav#menu a:hover {
-	color: #ffffff;
+	color: #000000;
 	text-decoration: underline;
 }
 
