@@ -87,3 +87,13 @@ div#interface {
 	margin: 150px auto 0px auto;
 	padding: 10px 10px 10px 10px
 }
+
+footer#rodape {
+		clear: both;
+		border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+	text-align: center;
+}	
+	
