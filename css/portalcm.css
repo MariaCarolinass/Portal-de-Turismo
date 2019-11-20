@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-	background-color: #ffffff;
+	background-color: #edf5e1;
 	color: rgba(0, 0 ,0 ,1);
 }
 
@@ -17,7 +17,7 @@ header#cabecalho {
   	right: 0;
   	left: 0;
   	border-bottom: 1px solid #ccc;
-  	background: #0d5646;
+  	background: #8ee4af;
   	z-index: 2;
 }
 
@@ -34,7 +34,7 @@ nav#titulo {
   	right: 0;
   	left: 0;
   	padding: -40px 10px 10px 10px;
-	background-color: #48b476;
+	background-color: #379683;
 }
 
 nav#titulo h3{
@@ -83,7 +83,6 @@ nav#menu h1 {
 
 div#interface {
 	width: 900px;
-	background-color: #ffffff;
 	margin: 150px auto 0px auto;
 	padding: 10px 10px 10px 10px
 }
