@@ -1,8 +1,7 @@
 @charset "UTF-8";
 
 body {
-	background-color: #edf5e1;
-	color: rgba(0, 0 ,0 ,1);
+	background-color: #595b4b;
 }
 
 p {
@@ -83,13 +82,19 @@ nav#menu h1 {
 
 div#interface {
 	width: 900px;
-	margin: 150px auto 0px auto;
-	padding: 10px 10px 10px 10px
+	margin: 140px auto 0px auto;
+	padding: 10px 10px 10px 10px;
+	background-color: #ffffff;
+}
+
+div#interface img#ImagemCentral {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 footer#rodape {
 		clear: both;
-		border-top: 1px solid #606060;
 }
 
 footer#rodape p {
