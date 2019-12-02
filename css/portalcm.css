@@ -2,7 +2,8 @@
 
 body {
 	background-color: #d1d1d1;
-	font-family: ;
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 18px;
 }
 
 p {
@@ -81,6 +82,15 @@ div#interface img#imagemprincipal {
    	margin-right: auto;
 }
 
+div#interface hgroup#tituloPrincipal {
+	text-indent: 20px;
+	line-height: .40;
+}
+
+div#interface img#galeria {
+	width: 300px;
+	height: 300px;
+}
 
 footer#rodape {
 	clear: both;
