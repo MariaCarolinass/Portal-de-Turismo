@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 body {
-	background-color: #595b4b;
+	background-color: #d1d1d1;
+	font-family: ;
 }
 
 p {
@@ -16,31 +17,14 @@ header#cabecalho {
   	right: 0;
   	left: 0;
   	border-bottom: 1px solid #ccc;
-  	background: #8ee4af;
+  	background: #f2c078;
   	z-index: 2;
 }
 
 header#cabecalho img#icone {
 	position: absolute;
-	left: 40px; 
+	left: 10px; 
 	top: 10px;
-}
-
-nav#titulo {
-	display: block;
-	position: absolute;
-	top: 80px;
-  	right: 0;
-  	left: 0;
-  	padding: -40px 10px 10px 10px;
-	background-color: #379683;
-}
-
-nav#titulo h3{
-	position: relative; 
-	top: 0;
-	left: 920px;
-	color: white;
 }
 
 nav#menu {
@@ -52,7 +36,7 @@ nav#menu ul{
 	text-transform: uppercase;
 	position: absolute;
 	top: -10px;
-	left: 880px;
+	right: 0;
 }
 
 nav#menu li {
@@ -81,20 +65,25 @@ nav#menu h1 {
 }
 
 div#interface {
-	width: 1200px;
-	margin: 140px auto 0px auto;
+	width: 1000px;
+	margin: 80px auto 0px auto;
 	padding: 10px 10px 10px 10px;
 	background-color: #ffffff;
+	border: solid 1px #999;
+	
 }
 
-div#interface img#ImagemCentral {
+div#interface img#imagemprincipal {
+	width: 940px;
+	height: 600px;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    	margin-left: auto;
+   	margin-right: auto;
 }
+
 
 footer#rodape {
-		clear: both;
+	clear: both;
 }
 
 footer#rodape p {
