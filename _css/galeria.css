@@ -73,16 +73,6 @@ div#interface {
 	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
 }
 
-div#interface img#imagemprincipal {
-	width: 900px;
-	height: 600px;
-	display: block;
-    margin-left: auto;
-   	margin-right: auto;
-   	border: 5px solid #ffffff;
-	box-shadow: 1px 1px 3px rgba(0,0,0,.5);
-}
-
 div#interface hgroup#tituloPrincipal {
 	text-indent: 50px;
 	line-height: .40;
@@ -126,7 +116,7 @@ div#interface ul#galeria span {
 }
 
 div#interface ul#galeria li#foto01 {
-	background: url('../Imagens/1079px-Igreja_matriz_de_cearámirim_carlabelke1.jpg') no-repeat;
+	background: url('../_imagens/1079px-Igreja_matriz_de_cearámirim_carlabelke1.jpg') no-repeat;
 	background-position: 50% 50%;
 	background-size: 400px 400px;
 	background-color: #ffffff;
@@ -138,7 +128,7 @@ div#interface ul#galeria li#foto01:hover {
 }
 
 div#interface ul#galeria li#foto02 {
-	background: url('../Imagens/Prefeitura-Municipal-de-Ceará-Mirim-1.jpg') no-repeat;
+	background: url('../_imagens/Prefeitura-Municipal-de-Ceará-Mirim-1.jpg') no-repeat;
 	background-position: 50% 50%;
 	background-size: 400px 400px;
 	background-color: #ffffff;
@@ -150,7 +140,7 @@ div#interface ul#galeria li#foto02:hover {
 }
 
 div#interface ul#galeria li#foto03 {
-	background: url('../Imagens/mercado publico.jpg') no-repeat;
+	background: url('../_imagens/mercado publico.jpg') no-repeat;
 	background-position: 50% 50%;
 	background-size: 400px 400px;
 	background-color: #ffffff;
@@ -162,7 +152,7 @@ div#interface ul#galeria li#foto03:hover {
 }
 
 div#interface ul#galeria li#foto04 {
-	background: url('../Imagens/RN-Praia-de-Muriú.jpg') no-repeat;
+	background: url('../_imagens/RN-Praia-de-Muriú.jpg') no-repeat;
 	background-position: 50% 50%;
 	background-size: 400px 400px;
 	background-color: #ffffff;
@@ -174,7 +164,7 @@ div#interface ul#galeria li#foto04:hover {
 }
 
 div#interface ul#galeria li#foto05 {
-	background: url('../Imagens/praiajacuma.jpeg') no-repeat;
+	background: url('../_imagens/praiajacuma.jpeg') no-repeat;
 	background-position: 50% 50%;
 	background-size: 400px 400px;
 	background-color: #ffffff;
@@ -186,7 +176,7 @@ div#interface ul#galeria li#foto05:hover {
 }
 
 div#interface ul#galeria li#foto06 {
-	background: url('../Imagens/museu-nilo-pereira.jpg') no-repeat;
+	background: url('../_imagens/museu-nilo-pereira.jpg') no-repeat;
 	background-position: 50% 50%;
 	background-size: 400px 400px;
 	background-color: #ffffff;
@@ -198,7 +188,7 @@ div#interface ul#galeria li#foto06:hover {
 }
 
 div#interface ul#galeria li#foto07 {
-	background: url('../Imagens/ENGENHO-RUY-PEREIRA-1_logomarca-730x400.jpg') no-repeat;
+	background: url('../_imagens/ENGENHO-RUY-PEREIRA-1_logomarca-730x400.jpg') no-repeat;
 	background-position: 50% 50%;
 	background-size: 400px 400px;
 	background-color: #ffffff;
@@ -209,11 +199,35 @@ div#interface ul#galeria li#foto07:hover {
 	background-size: 200px 200px;
 }
 
+div#interface ul#galeria li#foto08 {
+	background: url('../_imagens/ceara092.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+div#interface ul#galeria li#foto08:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+div#interface ul#galeria li#foto09 {
+	background: url('../_imagens/igreja abandonada.JPG') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+
+div#interface ul#galeria li#foto09:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
 footer#rodape {
 	clear: both;
 }
 
 footer#rodape p {
 	text-align: center;
-}	
-	
+}

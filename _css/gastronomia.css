@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+body {
+	background-color: #d1d1d1;
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 18px;
+}
+
+p {
+	text-align: justify; 
+	text-indent: 50px;
+}
+
+header#cabecalho {
+	min-height: 80px;
+  	position: fixed;
+  	top: 0;
+  	right: 0;
+  	left: 0;
+  	border-bottom: 1px solid #ccc;
+  	background: #f2c078;
+  	z-index: 2;
+}
+
+header#cabecalho img#icone {
+	position: absolute;
+	left: 10px; 
+	top: 10px;
+}
+
+nav#menu {
+	left: 200px;
+}
+
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -10px;
+	right: 0;
+}
+
+nav#menu li {
+	display: inline-block;
+	padding: 10px;
+	margin: 5px;
+	transition: background-color 1s;
+}
+
+nav#menu li:hover {
+	background-color: #ffffff;
+}
+
+nav#menu a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+nav#menu a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+nav#menu h1 {
+	display: none
+}
+
+div#interface {
+	width: 1000px;
+	margin: 80px auto 0px auto;
+	padding: 10px 10px 10px 10px;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+}
+
+div#interface hgroup#tituloPrincipal {
+	text-indent: 50px;
+	line-height: .40;
+}
+
+div#interface hgroup#tituloPrincipal img#mercadoimg {
+	width: 400px;
+	height: 400px;
+	display: block;
+    margin-left: auto;
+   	margin-right: auto;
+   	border: 5px solid #ffffff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.5);
+}
+
+div#interface ul#galeria {
+	width: 700px;
+	height: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+}
+
+div#interface ul#galeria li:hover {
+	-webkit-transform: scale(1.5);
+}
+
+div#interface ul#galeria li {
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	border: 5px solid #ffffff;
+	background-color: #ffffff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+	-webkit-transition: all .4s ease-in;
+}
+
+div#interface ul#galeria li:hover span {
+	opacity: 1;
+}
+
+div#interface ul#galeria span {
+	opacity: 0;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,.3);
+	font-size: 9pt;
+	line-height: 370px;
+	padding: 5px;
+}
+
+div#interface ul#galeria li#foto01 {
+	background: url('../_imagens/picado.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+div#interface ul#galeria li#foto01:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+div#interface ul#galeria li#foto02 {
+	background: url('../_imagens/caldodecana.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+div#interface ul#galeria li#foto02:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+div#interface ul#galeria li#foto03 {
+	background: url('../_imagens/carnedesol.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+div#interface ul#galeria li#foto03:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+div#interface ul#galeria li#mercado01 {
+	background: url('../_imagens/mercado01.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+div#interface ul#galeria li#mercado01:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+div#interface ul#galeria li#mercado02 {
+	background: url('../_imagens/mercado02.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+div#interface ul#galeria li#mercado02:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+div#interface ul#galeria li#mercado03 {
+	background: url('../_imagens/mercado03.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+div#interface ul#galeria li#mercado03:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+footer#rodape {
+	clear: both;
+}
+
+footer#rodape p {
+	text-align: center;
+}

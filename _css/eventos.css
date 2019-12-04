@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+body {
+	background-color: #d1d1d1;
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 18px;
+}
+
+p {
+	text-align: justify; 
+	text-indent: 50px;
+}
+
+header#cabecalho {
+	min-height: 80px;
+  	position: fixed;
+  	top: 0;
+  	right: 0;
+  	left: 0;
+  	border-bottom: 1px solid #ccc;
+  	background: #f2c078;
+  	z-index: 2;
+}
+
+header#cabecalho img#icone {
+	position: absolute;
+	left: 10px; 
+	top: 10px;
+}
+
+nav#menu {
+	left: 200px;
+}
+
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -10px;
+	right: 0;
+}
+
+nav#menu li {
+	display: inline-block;
+	padding: 10px;
+	margin: 5px;
+	transition: background-color 1s;
+}
+
+nav#menu li:hover {
+	background-color: #ffffff;
+}
+
+nav#menu a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+nav#menu a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+nav#menu h1 {
+	display: none
+}
+
+div#interface {
+	width: 1000px;
+	margin: 80px auto 0px auto;
+	padding: 10px 10px 10px 10px;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+}
+
+div#interface hgroup#tituloPrincipal {
+	text-indent: 50px;
+	line-height: .40;
+}
+footer#rodape {
+	clear: both;
+}
+
+footer#rodape p {
+	text-align: center;
+}
