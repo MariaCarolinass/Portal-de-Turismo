@@ -1,2 +1,19 @@
-# Portal-de-Turismo
-Portal: Guia de turismo da cidade de Ceará-Mirim no Rio Grande do Norte
+# Portal: Guia de Turismo, cidade de Ceará-Mirim/RN
+
+# Descrição
+
+Este projeto foi realizado por alunas do IFRN — campus Ceará-Mirim, que cursam técnico em informática. O desafio desde projeto era escolher um tema em que o trio se identificassem e desenvolvessem um site usando apenas HTML e CSS ou Javascript (opcional). Decidimos então, criar um guia de turismo (especie de fôlder) da nossa cidade.
+
+## Por que escolhemos criar um portal de turismo para a cidade de Ceará-Mirim?
+
+A ideia surgiu em uma aula de história com a professora Rhayara, que relatou Ceará-Mirim como exemplo, por temos uma riqueza tão imensa de cultura, mas não há uma valorização das pessoas que convivem na cidade. Diante disso, resolvemos criar um site de turismo para que haja uma maior visibilidade da nossa terra, fazendo com que não só, as pessoas de fora a admirem e sim a sua comunidade.
+
+# Participantes do projeto
+
+- Ângela Samara
+- [Maria Carolina](https://github.com/MariaCarolinass)
+- Maria Fátima
+
+# Colaborações futuras
+
+Adpatar o site para que o projeto cresça. Usar de outras tecnologias; Inserir linguagens; Framework; Padrões de software...
