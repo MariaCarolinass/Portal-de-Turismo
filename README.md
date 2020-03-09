@@ -10,9 +10,10 @@ A ideia surgiu em uma aula de história com a professora Rhayara, que relatou Ce
 
 # Participantes do projeto
 
-- Ângela Samara
+- [Ângela Samara](https://github.com/angelanunes)
 - [Maria Carolina](https://github.com/MariaCarolinass)
-- Maria Fátima
+- [Maria Fátima](https://github.com/Maria-fatimaa)
+- [Sthefany Maniele](https://github.com/Sthefany-Maniele)
 
 # Colaborações futuras
 
