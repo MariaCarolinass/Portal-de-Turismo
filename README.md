@@ -17,7 +17,7 @@ A ideia surgiu em uma aula de história com a professora Rhayara, que relatou Ce
 
 ## Colaborações futuras
 
-Adpatar o site para que o projeto cresça. Usar de outras tecnologias; Inserir linguagens; Framework; Padrões de software...
+Adicionar interações ao site (JavaScript); Inserir mais informações/imagens sobre a cidade; Outros: Aumentar o projeto adicionando uma Framework; Usar outras tecnologias...
 
 ## Imagem da cidade de Ceará-Mirim
 
